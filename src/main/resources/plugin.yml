@@ -2,3 +2,4 @@ name: sgi
 version: '${version}'
 main: net.hynse.sgi.Sgi
 api-version: '1.20'
+folia-supported: true

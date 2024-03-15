@@ -8,9 +8,11 @@ import org.bukkit.event.world.StructureGrowEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Sgi extends JavaPlugin implements Listener {
+    public static Sgi instance;
 
     @Override
     public void onEnable() {
+        instance = this;
         Bukkit.getPluginManager().registerEvents(this, this);
     }
 
